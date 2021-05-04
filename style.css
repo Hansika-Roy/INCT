@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url(/bg.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* styling of nav bar starts here */
+ul{
+  background-color: black;
+  list-style-type: none;
+}
+li{
+  float: right;
+}
+li a{
+  display:block;
+  text-decoration:none ;
+  padding: 20px 25px;
+  font-size: 25px;
+  color: white;
+}
+.logo{
+  float: left;
+  padding: 20px 25px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+/* styling of nav bar ends here */
+.dummy{
+  height: 85vh;
+  width: 100%;
+}
